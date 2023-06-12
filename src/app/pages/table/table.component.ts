@@ -10,7 +10,7 @@ import { Product } from '../scroll/scroll.component';
 })
 export class TableComponent implements OnInit {
   public products: Product[] = [];
-  columns: string[] = ['id', 'title', 'price'];
+  columns: string[] = ['price', 'id', 'cover', 'title'];
 
   constructor(private fakeApi: FakeApiService) { }
 
